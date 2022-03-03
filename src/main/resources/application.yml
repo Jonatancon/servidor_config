@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Jonatancon/configuracion-servicios
+          default-label: main
